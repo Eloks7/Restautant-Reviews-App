@@ -313,14 +313,36 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
-@media (min-width: 720px) and (max-width: 1019px) {
+@media (min-width: 420px) and (max-width: 759px) {
+  #restaurants-list li {
+    width: 70%;
+  }
   #reviews-list li {
     /* width: calc((100% -40px)/2); */
-    width: 85%;
-    margin-right: 20px;
+    width: 100%;
+    /* margin-right: 20px; */
+  }
+  #restaurant-img {
+    width: 100%;
+  }
+  #restaurant-container {
+    width: 90%;
+  }
+}
+@media (min-width: 760px) and (max-width: 1019px) {
+  #reviews-list li {
+    /* width: calc((100% -40px)/2); */
+    width: 100%;
+    /* margin-right: 20px; */
   }
   #reviews-list li:last-of-type {
     margin-right: 0px;
+  }
+  #restaurant-img {
+    width: 100%;
+  }
+  #restaurant-container {
+    width: 90%;
   }
 }
 
